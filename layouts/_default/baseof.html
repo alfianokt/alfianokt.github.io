@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Works - Alfian Oktafireza</title>
+  <meta name="google-site-verification" content="6P9d48s8uFAUjQEC8nXZg3Rcexh5Vew8P6m7dsxuQ7w">
+  <title>{{ .Title }}</title>
   <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
   <link rel="stylesheet" href="https://newcss.net/theme/terminal.css">
@@ -20,7 +21,16 @@
       <a href="/contact">Contact</a>
     </nav>
   </header>
-  <h3>Soon</h3>
-</body>
+  {{ block "main" . }}{{ end }}
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153559478-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-153559478-1');
+  </script>
+</body>
 </html>
