@@ -2,6 +2,8 @@ baseURL = "https://alfianokt.github.io/"
 languageCode = "en-us"
 title = "Alfian Oktafireza"
 
+disqusShortname = "alfianokt"
+
 [taxonomies]
   serie = "series"
   tag = "tags"
