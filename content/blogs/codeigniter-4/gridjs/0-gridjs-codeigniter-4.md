@@ -3,7 +3,7 @@ title: "#0 Menggunakan Datatable GridJS Di Codeigniter 4"
 date: 2021-07-17T11:58:33+07:00
 series:
   - GridJS CodeIginter 4
-draft: true
+draft: false
 ---
 
 ![Grid-js-Advanced-Java-Script-table-plugin](https://i.postimg.cc/8pxJ9sZn/Screenshot-2021-02-08-Grid-js-Advanced-Java-Script-table-plugin.png)
