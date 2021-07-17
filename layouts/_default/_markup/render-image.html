@@ -1,0 +1,13 @@
+<figure>
+  <img
+    alt="{{ .Text }}"
+    class="lazyload"
+    data-src="{{ .Destination | safeURL }}"
+    data-sizes="auto"
+    loading="lazy"
+    src="{{ "/img/placeholder.svg" | absURL }}"
+  />
+  {{ with .Title}}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
