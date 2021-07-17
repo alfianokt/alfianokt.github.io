@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ with .Data.Plural }}
+<h1>{{ title . }}</h1>
+{{ else }}
+<h1>Posts</h1>
+{{ end }}
+<ul>
+  {{ range .Paginator.Pages }}
+  <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
