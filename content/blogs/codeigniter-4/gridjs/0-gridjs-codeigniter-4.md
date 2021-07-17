@@ -12,7 +12,7 @@ draft: false
 
 Datatable adalah salah satu cara untuk menampilkan data pada sebuah aplikasi, karena fitur-fitur seperti pencarian, pengurutan dan _pagination_ data yang dilakukan di sisi klien menjadikannya sangat nyaman digunakan oleh klien atau pengguna karena tidak perlu bolak-balik merender halaman.
 
-Salah satu _library_ datatable yang terkenal adalah _Datatables_ dari https://datatables.net/ , akan tetapi _library_ tersebut masih bergantung dengan _jQuery_ yang mana sudah mulai ditinggalkan untuk pengembangan web pada saat ini, Namun tidak perlu khawatir karena sekarang sudah ada _library_ modern yang juga kompatibel dengan framework modern seperti _React_ atau _Vue_. Library tersebut adalah GridJS
+Salah satu _library_ datatable yang terkenal adalah _Datatables_ dari https://datatables.net/ , akan tetapi _library_ tersebut masih bergantung dengan _jQuery_ yang mana sudah mulai ditinggalkan untuk pengembangan web pada saat ini, Namun tidak perlu khawatir karena sekarang sudah ada _library_ modern yang juga kompatibel dengan framework modern seperti _React_ atau _Vue_. Library tersebut adalah [GridJS](https://gridjs.io/)
 
 ## Pengenalan CodeIgniter
 
