@@ -1,9 +1,14 @@
 {{ define "main" }}
-{{ with .Data.Plural }}
-<h1>{{ title . }}</h1>
-{{ else }}
-<h1>{{ .Title }}</h1>
-{{ end }}
+<h1>
+  {{ with .Data.Plural }}
+  {{ title . }}
+  {{ else }}
+  {{ .Title }}
+  {{ end }}
+  {{ with .Data.Term }}
+  - {{ title . }}
+  {{ end }}
+</h1>
 <ul>
   {{ range .Paginator.Pages }}
   <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
