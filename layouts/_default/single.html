@@ -1,8 +1,16 @@
 {{ define "main" }}
 <div id="content">
-    <h1>{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
   {{ .Content }}
 </div>
 
+<div>
+  {{ if .Params.tags }}
+  <h1>Tags :</h1>
+  {{range .Params.tags}}
+  <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+  {{end}}
+  {{end}}
+</div>
 <script src="https://cdn.jsdelivr.net/gh/aFarkas/lazysizes/lazysizes.min.js"></script>
 {{ end }}
