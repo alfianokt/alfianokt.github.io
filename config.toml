@@ -2,6 +2,11 @@ baseURL = "https://alfianokt.github.io/"
 languageCode = "en-us"
 title = "Alfian Oktafireza"
 
+
+[params]
+  author = "Alfian Oktafireza"
+  description = "Homepage of Alfian Oktafireza blog and personal site"
+
 disqusShortname = "alfianokt"
 
 [taxonomies]

@@ -2,6 +2,8 @@
 title: "Works - E Sarpras Laravel"
 tags:
   - laravel
+description: "E Sarpras adalah aplikasi yang digunakan untuk melaporkan dan
+mencatat kerusakan pada sarana dan prasarana suatu instansi"
 date: 2021-07-17T20:23:34+07:00
 draft: false
 ---

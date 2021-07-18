@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 date: 2021-07-16T11:19:07+07:00
+description: "Contact Alfian Oktafireza"
 url: "/contact"
 draft: false
 ---

@@ -1,8 +1,9 @@
 ---
 title: "#0 Menggunakan Datatable GridJS Di Codeigniter 4"
-date: 2021-07-17T11:58:33+07:00
+description: "Datatable adalah salah satu cara untuk menampilkan data pada sebuah aplikasi, karena fitur-fitur seperti pencarian, pengurutan dan pagination data yang dilakukan di sisi klien menjadikannya sangat nyaman digunakan oleh klien atau pengguna karena tidak perlu bolak-balik merender halaman."
 series:
   - GridJS CodeIginter 4
+date: 2021-07-17T11:58:33+07:00
 draft: false
 ---
 
